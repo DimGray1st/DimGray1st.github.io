@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'DDinExp';
+    src: url('assets/fonts/D-DINExp.woff2') format('woff2'),
+         url('assets/fonts/D-DINExp.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DDinExp';
+    src: url('assets/fonts/D-DINExp-Bold.woff2') format('woff2'),
+         url('assets/fonts/D-DINExp-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DDinExp';
+    src: url('assets/fonts/D-DINExp-Italic.woff') format('woff2'),
+         url('assets/fonts/D-DINExp-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+* {
+    font-family: DDinExp, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: dimgray;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 3em;
+    border: white 0.075em solid;
+    padding: 8px;
+
+    display: flex;
+
+    width: max-content;
+}
+
+p {
+    width: max-content;
+}
+
+#namenumber {
+    font-size: 0.5em;
+}
